@@ -1,0 +1,42 @@
+/**
+ * src/styles/settings.scss
+ *
+ * Configures SASS variables and Vuetify overwrites
+ */
+
+// https://vuetifyjs.com/features/sass-variables/`
+// @use 'vuetify/settings' with (
+//   $color-pack: false
+// );
+.router-link-active {
+    text-decoration: none;
+    color: rgb(33, 33, 33);
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(33, 33, 33);
+}
+
+/*点击前*/
+a:visited {
+    text-decoration: none;
+}
+
+/*点击后*/
+a:active {
+    text-decoration: none;
+}
+
+/*点击中*/
+a:hover {
+    text-decoration: none;
+    animation: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+/*鼠标悬浮*/
+
+.mdi {
+    color: seagreen;
+}
